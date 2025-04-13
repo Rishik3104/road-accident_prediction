@@ -11,9 +11,6 @@ df.head()
 df.isna()
 
 
-# In[4]:
-
-
 pd.unique(df['Accident_Severity'])
 
 

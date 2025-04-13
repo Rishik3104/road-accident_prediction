@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import numpy as np

@@ -6,7 +6,6 @@ df = pd.read_csv('accidents_india.csv')
 df.head()
 
 
-# In[3]:
 
 
 df.isna()

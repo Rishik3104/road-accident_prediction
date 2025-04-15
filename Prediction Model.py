@@ -14,7 +14,6 @@ df.dropna(inplace = True)
 
 df.columns[df.isna().any()]
 
-
 # In[7]:
 
 

@@ -12,9 +12,6 @@ pd.unique(df['Accident_Severity'])
 df.dropna(inplace = True)
 
 
-# In[6]:
-
-
 df.columns[df.isna().any()]
 
 

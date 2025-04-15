@@ -6,7 +6,6 @@ df = pd.read_csv('accidents_india.csv')
 df.head()
 df.isna()
 
-
 pd.unique(df['Accident_Severity'])
 
 

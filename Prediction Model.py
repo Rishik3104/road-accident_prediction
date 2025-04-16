@@ -14,8 +14,6 @@ df.dropna(inplace = True)
 
 df.columns[df.isna().any()]
 
-
-
 df.Sex_Of_Driver = df.Sex_Of_Driver.fillna(df.Sex_Of_Driver.mean())
 df.Vehicle_Type = df.Vehicle_Type.fillna(df.Vehicle_Type.mean())
 df.Speed_limit = df.Speed_limit.fillna(df.Speed_limit.mean())

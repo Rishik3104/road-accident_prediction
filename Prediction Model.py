@@ -14,7 +14,6 @@ df.dropna(inplace = True)
 
 df.columns[df.isna().any()]
 
-# In[7]:
 
 
 df.Sex_Of_Driver = df.Sex_Of_Driver.fillna(df.Sex_Of_Driver.mean())

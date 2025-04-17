@@ -27,7 +27,7 @@ plt.figure(figsize=(14, 10))
 sns.heatmap(corr, cmap="RdYlBu", annot=True, fmt=".1f")
 
 
-# In[60]:
+
 
 
 # df.replace(np.nan, '', regex=True)

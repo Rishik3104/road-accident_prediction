@@ -20,9 +20,6 @@ df.Speed_limit = df.Speed_limit.fillna(df.Speed_limit.mean())
 df.Road_Type = df.Road_Type.fillna(df.Road_Type.mean())
 df.Number_of_Pasengers = df.Number_of_Pasengers.fillna(df.Speed_limit.mean())
 
-
-
-
 corr = df.corr()
 import seaborn as sns
 sns.set()

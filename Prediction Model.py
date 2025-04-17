@@ -21,7 +21,6 @@ df.Road_Type = df.Road_Type.fillna(df.Road_Type.mean())
 df.Number_of_Pasengers = df.Number_of_Pasengers.fillna(df.Speed_limit.mean())
 
 
-# In[8]:
 
 
 corr = df.corr()

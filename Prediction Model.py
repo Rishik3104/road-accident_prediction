@@ -8,7 +8,6 @@ df.isna()
 
 pd.unique(df['Accident_Severity'])
 
-
 df.dropna(inplace = True)
 
 

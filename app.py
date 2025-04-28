@@ -4,7 +4,6 @@ import numpy as np
 app = Flask(__name__)
 
 test=pickle.load(open('test1.pkl','rb'))
-
 @app.route('/')
 def hello_world():
     return render_template("t.html")

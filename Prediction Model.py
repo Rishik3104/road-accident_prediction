@@ -27,7 +27,7 @@ sns.heatmap(corr, cmap="RdYlBu", annot=True, fmt=".1f")
 
 # df.replace(np.nan, '', regex=Tru
 
-# In[61]
+# In[61
 
 # df.fillna('', inplace=True)
 # df.columns[df.isna().any()]

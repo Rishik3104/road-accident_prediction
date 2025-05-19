@@ -81,7 +81,7 @@ cm = confusion_matrix(y_test, yp)
 cm
 
 
-# In[52]:
+# In[52]
 
 
 import matplotlib.pyplot as plt

@@ -32,7 +32,6 @@ sns.heatmap(corr, cmap="RdYlBu", annot=True, fmt=".1f")
 # df.columns[df.isna().any()]
 
 # In[9]:
-
 #LabelEncoding
 c = LabelEncoder()
 df['Day'] = c.fit_transform(df['Day_of_Week'])

@@ -27,9 +27,7 @@ sns.heatmap(corr, cmap="RdYlBu", annot=True, fmt=".1f")
 # df.replace(np.nan, '', regex=Tru
 
 # df.fillna('', inplace=True)
-# df.columns[df.isna().any()]
-
-# In[9]:
+# df.columns[df.isna().any()]# In[9]:
 c = LabelEncoder()
 df['Day'] = c.fit_transform(df['Day_of_Week'])
 df.drop('Day_of_Week', axis=1, inplace=True)

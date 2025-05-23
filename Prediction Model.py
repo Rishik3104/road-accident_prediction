@@ -25,7 +25,6 @@ plt.figure(figsize=(14, 10))
 sns.heatmap(corr, cmap="RdYlBu", annot=True, fmt=".1f")
 
 # df.replace(np.nan, '', regex=Tru
-
 # df.fillna('', inplace=True)
 # df.columns[df.isna().any()]# In[9]:
 c = LabelEncoder()

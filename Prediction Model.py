@@ -48,7 +48,6 @@ y = df['Severity']
 
 # In[11]:
 
-
 pd.unique(y)
 
 

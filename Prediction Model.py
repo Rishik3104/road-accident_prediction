@@ -43,7 +43,6 @@ from sklearn.model_selection import train_test_split
 x = df.drop(['Pedestrian_Crossing', 'Special_Conditions_at_Site', 'Severity'], axis=1)
 y = df['Severity']
 
-
 # In[11]:
 
 pd.unique(y)

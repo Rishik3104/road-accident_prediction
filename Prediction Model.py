@@ -54,9 +54,7 @@ reg.fit(x_train, y_train)
 reg.score(x_test, y_test)
 
 
-# In[49]:
-
-
+# In[49]
 yp = reg.predict(x_test)
 import seaborn as sn
 from sklearn.metrics import confusion_matrix 

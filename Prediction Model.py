@@ -43,7 +43,6 @@ x = df.drop(['Pedestrian_Crossing', 'Special_Conditions_at_Site', 'Severity'], a
 y = df['Severity']
 
 # In[11]:
-
 pd.unique(y)
 
 # In[43]:

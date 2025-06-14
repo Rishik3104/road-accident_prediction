@@ -61,7 +61,6 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, yp)
 cm
 
-
 # In[52]
 
 

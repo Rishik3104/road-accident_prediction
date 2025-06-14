@@ -162,7 +162,6 @@ tru.score(x_test, y_test)
 
 # In[80]:
 
-
 import matplotlib.pyplot as plt
 import numpy as np
 def plot_feature_importances_adult_census(model):

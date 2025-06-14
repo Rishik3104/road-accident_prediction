@@ -82,7 +82,6 @@ labels = [f"{v1}\n{v2}\n{v3}" for v1, v2, v3 in
 labels = np.asarray(labels).reshape(2,2)
 sns.heatmap(cm, annot=labels, fmt='', cmap='Blues')
 
-
 # In[46]:
 
 import numpy as np

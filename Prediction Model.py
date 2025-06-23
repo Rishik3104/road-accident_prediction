@@ -95,7 +95,6 @@ test=pickle.load(open('test1.pkl','rb'))
 
 # In[31]:
 
-
 from sklearn.ensemble import RandomForestClassifier
 r_forest = RandomForestClassifier(criterion='entropy')
 r_forest.fit(x_train, y_train)

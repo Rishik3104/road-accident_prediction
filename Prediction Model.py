@@ -60,7 +60,7 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, yp)
 cm
 
-# In[52]
+# In[5
 
 import matplotlib.pyplot as plt
 from pylab import savefig

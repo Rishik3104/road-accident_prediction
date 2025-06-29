@@ -186,7 +186,7 @@ import os
 
 os.environ['PATH'] = os.environ['PATH']+';'+os.environ['CONDA_PREFIX']+r"\Library\bin\graphviz"
 
-# In[88]:
+# In[88]
 import pydotplus
 from sklearn.tree import export_graphviz
 from sklearn.externals.six import StringIO

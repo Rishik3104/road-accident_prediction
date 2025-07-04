@@ -106,7 +106,6 @@ r_forest.score(x_test, y_test)
 
 # In[33]:
 
-
 df.hist(bins=50, figsize=(20, 15))
 plt.show()
 

@@ -78,7 +78,6 @@ labels = np.asarray(labels).reshape(2,2)
 sns.heatmap(cm, annot=labels, fmt='', cmap='Blues')
 
 # In[46
-
 import numpy as np
 import pickle
 inputt=[int(x) for x in "2 10 201 10 10 8 3".split(' ')]

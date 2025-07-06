@@ -172,7 +172,6 @@ plot_feature_importances_adult_census(reg)
 
 # In[81]:
 
-
 from sklearn import tree
 import matplotlib.pyplot as plt
 tree.plot_tree(reg)

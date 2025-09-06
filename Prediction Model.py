@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import matplotlib.pyplot as plt
@@ -191,6 +191,7 @@ export_graphviz(reg, out_file=dot_data, filled=True, rounded=True, special_chara
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue()) 
 Image(graph.create_png())
 graph.write_png('graph.png')
+
 
 
 
